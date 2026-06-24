@@ -14,6 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Discworld 🐢❄️
+url: "https://keiran-rowell.github.io" 
+base_url: "/discworld-docs"
 email: sbf+discworld@unsw.edu.au
 description: >- # this means to ignore newlines until "baseurl:"
   Discworld is a bespoke computational cluster for processing biostructural raw data. Specialities: Cryo-Electron Microscopy, Cryo-Tomography. 

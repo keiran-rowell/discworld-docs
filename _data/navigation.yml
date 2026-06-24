@@ -5,6 +5,8 @@ main:
     url: /codes/
   - title: "Field Guide"
     url: /field-guide/00-notices
+  - title: "FAQ"
+    url: /faq
   - title: "News"
     url: /news/
   - title: "About"

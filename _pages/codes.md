@@ -17,7 +17,7 @@ If it’s a reasonably straightforward install, please have a go in your own `/h
 
 - `CryoSPARC` (through [portal.discworld.analytical.unsw.edu.au](http://cryosparc.analytical.unsw.edu.au))
 - Typical Cryo-EM/ET command line interface (CLI) programs
-- `Doppio` (portal) / `Relion` (graphical/CLI)
+- `Doppio` [[portal](/portal)] / `Relion` [graphical/CLI]
 
 ### Software package managers
 

@@ -69,7 +69,7 @@ author:
 
 footer:
   links:
-    - label: "DOI (please cite)"
+    - label: "DOI (TBD -- please cite)"
       icon: "fa-solid fa-book-open"
       url: "https://doi.org/10.26190/4KQF-M552"
     - label: "UNSW Research Infrastructure"

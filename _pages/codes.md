@@ -7,9 +7,9 @@ author: keiran_rowell
 ---
 
 
-> ℹ️ If you need some code for you science and don’t see it listed here, please discuss with the Discworld systems administration team ([sbf+discworld@unsw.edu.au](mailto:sbf@unsw.edu.au)) and we can see how to install it.  
->   
-> If it’s a reasonably straightforward install, please have a go in your own `/home` folder
+ℹ️ If you need some code for you science and don’t see it listed here, please discuss with the Discworld systems administration team ([sbf+discworld@unsw.edu.au](mailto:sbf@unsw.edu.au)) and we can see how to install it.<br> 
+<br>
+If it’s a reasonably straightforward install, please have a go in your own `/home` folder
 {: .notice--info}
 
 
@@ -38,7 +38,7 @@ author: keiran_rowell
 
 ### Installing your own software
 
-> Feel free to give new programs a try, you can't break other people's `/home` --- or ask us to install!
+Feel free to give new programs a try, you can't break other people's `/home` --- or ask us to install!
 {: .notice--success}
 
 If there’s a program you want, walk down the list in order of preference in how to go about it

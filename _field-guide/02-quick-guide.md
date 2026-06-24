@@ -10,7 +10,7 @@ sidebar:
 ---
 
 ### The Gates 🚪
-
+{: data-toc="🚪 Login"}
 There are two ways to pass through the gates of your laptop on Discworld:
 
 1. **Through a webportal** 
@@ -58,6 +58,7 @@ Congrats, you now have a high performance “super” computer at your fingertip
 ---
 
 ### `Command` masher ⌨️
+{: data-toc="⌨️  `command` reference"}
 
 One thing that makes Linux systems *seem* hard to work with is your possible commands are invisible. You’re given a black mirror without the buttons to show the things you normally want to do.
 
@@ -188,6 +189,7 @@ Since all our users are doing CryoEM work, our admin team have set up some autom
 ---
 
 ### Requesting resources 🫲
+{: data-toc="⏱️ Job scheduling"}
 
 > [!NOTE]
 > Just ask for what you need, with a bit of overhead so your job won’t run out of time or RAM
@@ -207,6 +209,7 @@ Put the resources you need as `--flags` after `sinteractive`
 ---
 
 ### Data at the door 🗂️
+{: data-toc="🗂️ Data management"}
 
 > [!WARNING]
 > **Do not pull your CryoEM particle data down to your /home drive**. The cluster already knows how to access the data and handles transfers, you just occasionally need to tell it where it go looking.   
@@ -267,6 +270,7 @@ Anyway, that’s enough peeking under the hood. Get back in your container and s
 ---
 
 ### GPU Alley👨‍💻🛣️
+{: data-toc="🛣️ Job lanes"}
 
 > [!IMPORTANT]
 > `SLURM` (Simple Linux Utility for Resource Management) provides a single master queue for a variety of computational work, ensuring a fair quality of service for everyone.   
@@ -279,6 +283,7 @@ Anyway, that’s enough peeking under the hood. Get back in your container and s
 ---
 
 ### Future improvements 🚧
+{: data-toc="🚧 Under construction"}
 
 > [!TIP]
 > Please try to be patient and respectful with our administration and development team. We try to roll out new features to you as fast as we stably can, so require testing time.

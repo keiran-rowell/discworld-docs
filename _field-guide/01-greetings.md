@@ -38,7 +38,7 @@ toc: false
 .parchment-quote p {
   font-family: "Playfair Display", Georgia, serif !important;
   font-style: normal !important;
-  font-size: 1.15rem;
+  font-size: 0.9rem;
   line-height: 1.7;
   color: #5c4033 !important;
   margin-bottom: 1rem;

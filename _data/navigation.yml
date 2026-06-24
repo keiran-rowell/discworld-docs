@@ -17,4 +17,6 @@ field-guide-nav:
           url: /field-guide/00-notices
         - title: "Greetings"
           url: /field-guide/01-greetings
+        - title: "Field Guide"
+          url: /field-guide/02-field-guide
 

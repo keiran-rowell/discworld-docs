@@ -48,7 +48,7 @@ If there’s a program you want, walk down the list in order of preference in ho
    `sbgrid` is an amazing collaborative Structural Biology Grid consortium. We install all 200+ programs in the `Electron Microscopy` collection. These installs usually live under   
    `/apps/sbgrid/<program>/<version_number>/bin/<program>` `bin` because computers use `bin`ary. SBGrid has good guides on [how to switch software versions](https://sbgrid.org/wiki/versions) and even provides [examples on running some programs](https://sbgrid.org/wiki/examples) *via* SBGrid.  
    ---------------- BELOW OPTIONS (BAR #5) ARE AFTER THE MINIMAL LAUNCH ----------------
-3. **Check** `scipion`: if you connect with `ssh -Y` you can launch the Scipion visual interface to click install a set of Cryo-EM programs, worth checking as what’s packaged may be different.
+3. **Check** `scipion`: if you connect with `ssh -Y` you can launch the Scipion visual interface to click install a set of CryoEM programs, worth checking as what’s packaged may be different.
 4. **Unvalidated experimental unbuilt - Check** `apt` the Linux program repository: `apt` is just the name of a collection of programs vetted and packaged for you by the Linux community. Installing a program would be simple as `sudo apt install firefox`
 5. **Have a go installing it yourself**: This is what your `/home` is for.
 

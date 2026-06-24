@@ -12,9 +12,9 @@ classes: wide
 3. `/home` **is for your tools not your data**:  <span style="font-size:0.85em;"> `/home` is optimised on fast networked flash storage. `/home` is appropriate for your software, environments, notes, and scripts. Particle data is *not* to be pulled to `/home`. </span>
 
     <span style="font-size:0.85em;">🫷 You wouldn’t pull all your cat pics on your laptop’s boot drive and prevent it from starting up! 
-    <br> &emsp;&ensp;In the same way, **please don’t bring Cryo-EM data onto our shared `/home` toolshed space**. </span>
+    <br> &emsp;&ensp;In the same way, **please don’t bring CryoEM data onto our shared `/home` toolshed space**. </span>
     {: .notice--warning}
-4. **There should always be at least one way of doing things:** <span style="font-size:0.85em;"> The common Cryo-EM tools are provided with first-class support (_e.g._ `SbGrid`), other frameworks (`CryoSPARC`, `Scipion`, `Doppio`) captures most of the rest. We try to provide a graphical interface _when there is one available_. The newest techniques from papers will likely be less complete as 'products' are require more support and command-line skills. </span>
+4. **There should always be at least one way of doing things:** <span style="font-size:0.85em;"> The common CryoEM tools are provided with first-class support (_e.g._ `SbGrid`), other frameworks (`CryoSPARC`, `Scipion`, `Doppio`) captures most of the rest. We try to provide a graphical interface _when there is one available_. The newest techniques from papers will likely be less complete as 'products' are require more support and command-line skills. </span>
 
     <span style="font-size:0.85em;">🙋 Please let us know if you're missing anything, don't miss out in silence. </span>
     {: .notice--success}

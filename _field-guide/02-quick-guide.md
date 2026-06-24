@@ -1,44 +1,12 @@
 ---
-permalink: /field-guide/
 title: "Discworld Field Guide"
 layout: single
-sidebar: nav
 classes: wide
----
-
-> [!IMPORTANT]
-> **What to expect from the pilot:** Testing phase will a stable clustered `CryoSPARC` and `Relion`
-
-> [!NOTE]
-> For support inquiries email [sbf@unsw.edu.au](mailto:support.discworld@sbf.unsw.edu.au), please read the guide first
-
-> [!NOTE]
-> Containers are speculative, and unavailable as we validate deployment issues (security, *etc*)
-
-> [!NOTE]
-> We can trial these features because we have a new system, a small number of users entirely focused on CryoEM *processing* in long-term engagements. It does not operate in a way that allow mores general purpose use, or direct `command` or `script` portability to other systems. They serve a different purpose so have different functions and problems to solve.
-
-**Hello from Discworld!** ❄️🔬 → 💻 → 🐢 🌌
-
-> My days here have been as rewarding as they are troublesome, and often confusing. I have been assembling my notes on CryoEM computing for some time now.   
->   
-> My intent is to create a guide for anyone whose research path may lead them into high performance computing.   
->   
-> There are days I fear my work will only serve to create more confusion about what I've learnt, but I felt it nеcessary to provide in hopеs that these insights may be illuminating for new users.  
->   
-> Contained within are `commands`, scripts, data tips, warnings, diagrams and more, all organized in an effort to promote safe travel and computational awareness.  
->   
-> While this arrangement highlights the basic chronology of user on-boarding, users could skip to whatever section most directly applies to their impending research deadline, as no two Discworld experiences are the exactly same.  
->   
-> Accordingly, certain passages may detail specific programs that you will not encounter. It is still recommended you cover these sections as to increase your general understanding of high performance computing.  
->   
-> There will be times when your programs will be tested in ways this guide can neither prepare you for, nor help you from. Discworld travel is not recommended for those without an advisor and allocated time to train. Swift and incomprehensible error messages will follow any decision to breach your container environment (though we keep your `/home` environment safe).  
->   
-> With that in mind, I believe the unabridged *Discworld Field Guide* compiled here to be an essential companion for all modern CryoEM data processing research, as well as those potentially seeking more permanent computing knowledge.
-
-Kindest regards, 
-*Keiran Rowell*
-
+author: keiran_rowell
+toc: false
+sidebar:
+  - title: "Discworld Field Guide"
+    nav: "field-guide-nav"
 ---
 
 ### The Gates 🚪

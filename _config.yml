@@ -110,6 +110,16 @@ defaults:
       toc_sticky: true
       sidebar:
         nav: "field-guide-nav"
+  - scope:
+      path: ""
+      type: how-to 
+    values:
+      layout: single
+      author_profile: true
+      toc: true
+      toc_sticky: true
+      sidebar:
+        nav: "how-to-nav"
   
 
 

@@ -1,0 +1,47 @@
+{% if page.collection == "field-guide" %}
+<!-- Custom Styles Hook for the Field Guide Left TOC Menu -->
+<style>
+  .custom-sidebar-toc ul { list-style-type: none !important; padding-left: 0 !important; margin: 0 !important; }
+  .custom-sidebar-toc li { font-size: 0.85em !important; line-height: 1.5 !important; margin-bottom: 6px !important; }
+  .custom-sidebar-toc li a { text-decoration: none !important; color: #6f7b85 !important; transition: color 0.1s ease; }
+  .custom-sidebar-toc li a:hover { color: #000 !important; text-decoration: underline !important; }
+</style>
+
+<!-- Hidden Logic Engine (Safely executing at the bottom of the page) -->
+<script type="text/javascript">
+  (function() {
+    function buildSidebarTOC() {
+      var headings = document.querySelectorAll(".page__content h3");
+      var tocContainer = document.getElementById("custom-side-toc");
+      var tocList = document.getElementById("toc-js-target");
+      
+      if (!headings || !tocContainer || !tocList) return;
+      
+      tocList.innerHTML = "";
+      
+      if (headings.length > 0) {
+        headings.forEach(function(heading) {
+          if (heading.id) {
+            var li = document.createElement("li");
+            var a = document.createElement("a");
+            
+            a.href = "#" + heading.id;
+            a.textContent = heading.innerText || heading.textContent;
+            
+            li.appendChild(a);
+            tocList.appendChild(li);
+          }
+        });
+        
+        tocContainer.style.display = "block";
+      }
+    }
+
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", buildSidebarTOC);
+    } else {
+      buildSidebarTOC();
+    }
+  })();
+</script>
+{% endif %}

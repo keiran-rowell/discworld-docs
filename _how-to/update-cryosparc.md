@@ -14,7 +14,7 @@ If you see that an update is available, and you would like to update, follow the
 Firstly, close any currently running CryoSPARC sessions. This can be done via the web-portal by clicking the “X” button next to the “Connect” button.
 
 
-![Doppio portal connection](/assets/images/doppio_connect.png)
+![Doppio portal connection]({{ site.url }}{{ site.baseurl }}/assets/images/doppio_connect.png)
 
 Then, connect to Discworld via the login node, and start an interactive session with a GPU. To avoid interruptions due to network connection failures, it is recommended to perform an update within a [Tmux session](/how-to/using-tmux).
 
@@ -69,7 +69,7 @@ Shut down
 
 The update is now complete. You may start CryoSPARC via the web portal.
 
-![CryoSPARC update completion alert](/assets/images/cryosparc_updated.png)
+![CryoSPARC update completion alert]({{ site.url }}{{ site.baseurl }}/assets/images/cryosparc_updated.png)
 
 ### Troubleshooting
 #### CryoSPARC is taking a while to start

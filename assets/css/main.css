@@ -24,7 +24,7 @@
 
   &::before {
     content: "“";
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: "Georgia", serif;
     color: rgba(181, 137, 0, 0.15); 
     position: absolute;
@@ -36,7 +36,7 @@
   // Target paragraphs inside the blockquote to use Playfair Display
   p {
     font-family: "Playfair Display", Georgia, serif !important;
-    font-size: 1.15rem;
+    font-size: 0.6rem;
     line-height: 1.7;
     color: #5c4033 !important;
     margin-bottom: 1rem;

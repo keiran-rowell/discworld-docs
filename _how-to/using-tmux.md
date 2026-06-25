@@ -24,7 +24,7 @@ In the bottom right of your display, you should see a truncated version of you s
 
 Tmux uses keyboard shortcuts to detach a session. To detach a Tmux session, you can press `Cntrl+b` to enter the Tmux command mode, then `d` to detach. You should now see yourself return to the shell you were previously in.
 
-### Viewing all your session
+### Viewing all your sessions
 
 Tmux allows you to have more than one session. Outside of a Tmux session, you can run this command to list all your running sessions:
 
@@ -54,6 +54,6 @@ You should now see your terminal show the screen of this session.
 
 Similarly to detaching a session, you can use commands and keyboard shortcuts to scroll your Tmux session. Firstly, enter command mode by pressing `Cntrl+b`, then press the `[` key. In the top right, you should see the line counter.
 
-![Tmux line count]({{ site.url }}{{ site.baseurl }}/images/assets/tmux-line-count.png) 
+![Tmux line count]({{ site.url }}{{ site.baseurl }}/assets/images/tmux-line-count.png) 
 
 Once in this mode, you can use the Up, Down, Left, and Right arrow keys to move the cursor around. To exit scrolling mode, you can press the `q` key (q for quit).

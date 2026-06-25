@@ -11,10 +11,10 @@ main:
     url: /how-to/update-cryosparc
   - title: "Portal"
     url: /portal
-  - title: "News"
-    url: /
   - title: "About"
     url: /about/
+  - title: "Status"
+    url: /status/
 
 field-guide-nav:
     - title: "Discworld Field Guide"

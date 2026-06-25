@@ -7,7 +7,7 @@ author: keiran_rowell
 ---
 
 
-ℹ️ If you need some code for you science and don’t see it listed here, please discuss with the Discworld systems administration team ([sbf+discworld@unsw.edu.au](mailto:sbf@unsw.edu.au)) and we can see how to install it.<br> 
+ℹ️ If you need some code for your science and don’t see it listed here, please discuss with the Discworld systems administration team ([sbf+discworld@unsw.edu.au](mailto:sbf@unsw.edu.au)) and we can see how to install it.<br> 
 <br>
 If it’s a reasonably straightforward install, please have a go in your own `/home` folder
 {: .notice--info}
@@ -15,7 +15,7 @@ If it’s a reasonably straightforward install, please have a go in your own `/h
 
 ### Programs at launch
 
-- `CryoSPARC` (through [portal.discworld.analytical.unsw.edu.au](http://cryosparc.analytical.unsw.edu.au))
+- `CryoSPARC` [through [portal.discworld.analytical.unsw.edu.au](http://cryosparc.analytical.unsw.edu.au)]
 - Typical Cryo-EM/ET command line interface (CLI) programs
 - `Doppio` [[portal](/portal)] / `Relion` [graphical/CLI]
 
@@ -28,7 +28,7 @@ If it’s a reasonably straightforward install, please have a go in your own `/h
 
 -  `Scipion` framework  --- graphical and workflow and plugin interface for major CryoEM tools
 
- 📧 email [d.luque@unsw.edu.au](mailto:d.luque@unsw.edu.au) for expertise support, and contact with developers for difficult debugging
+ 📧 Email [d.luque@unsw.edu.au](mailto:d.luque@unsw.edu.au) for expertise, support, and contact with the `scipion` developers for difficult use cases and debugging
  {: .notice--warning}
 
 - `Spack` -- scientific program installer

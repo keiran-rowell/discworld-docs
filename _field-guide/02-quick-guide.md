@@ -68,9 +68,9 @@ The first hurdle is learning to work with your files *without clicking on them.*
   
 Basic navigation and file movement commands are: `ls`, `pwd`, `mkdir`, `cd`, `cp`, `mv`, `rm`, `grep`
 
-`rm` is DANGEROUS. It is a COMPLETE DELETION. We have confirmation on for your safety, but don’t get used to it, other systems will *immediately* execute `rm` and the file will be gone.
+`rm` is DANGEROUS. It is a COMPLETE DELETION.
 {: .notice--danger}
-We provide a `saferm` that will ask for confirmation, if you're a beginner 
+We provide a `saferm` that will ask for confirmation, if you're a beginner. **Don't get used to it**, other systems will _immediately_ execute a delete and the file will be gone. 
 {: .notice--success}
 
 If those seem to be missing letters, that’s because they *are*. You’ll end up typing so often you don’t want to spell out `list ./my_data` or `print-working-directory` over & over again. 
@@ -239,7 +239,7 @@ Put the resources you need as `--flags` after `sinteractive`
 ### Data at the door 🗂️
 {: data-toc="🗂️ Data management"}
 
-**Do not pull your CryoEM particle data down to your /home drive**. The cluster already knows how to access the data and handles transfers, you just occasionally need to tell it where it go looking.   
+**Do not pull your CryoEM particle data down to your /home drive**. The cluster already knows how to access the data and handles transfers, you just occasionally need to tell it where to go looking.   
     
 The Electron Microscopy Unit gathers & manages the raw data from the instruments. It is classified as `Raw data` (*see below*) and stored on the central university’s storage solution.
 {: .notice--danger}
@@ -267,7 +267,7 @@ The Electron Microscopy Unit gathers & manages the raw data from the instruments
 
 💾 We save a `snapshot` of your `/home` drive to another storage server every night. That means if you alert us within two weeks we can start the process of ‘rolling-back’ to an old save state. We only keep the last two weeks otherwise the user storage will balloon.
 
-📜 Recall [The Laws of Discworld](The_Laws_of_Discworld.md) **/home is for your** ***tools*** **not your data**
+📜 Recall [The Laws of Discworld](/laws/) **/home is for your** ***tools*** **not your data**
 {: .notice--warning}
 
 ---

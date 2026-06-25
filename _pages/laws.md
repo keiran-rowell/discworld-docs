@@ -18,7 +18,7 @@ classes: wide
 
     <span style="font-size:0.85em;">🙋 Please let us know if you're missing anything, don't miss out in silence. </span>
     {: .notice--success}
-5. **Have a go**: <span style="font-size:0.85em;"> You break things for other users! If you're scared of accidental deletions use `saferm`.
+5. **Have a go**: <span style="font-size:0.85em;"> **You can't break things for other users!** If you're scared of accidental deletions use `saferm`.
 <br>There will be many choices of software listed in the [Codes of Discworld](/codes). </span>
 
     <span style="font-size:0.85em;"> 📑👀 Most programs come with their own README documentation if you look them up, but feel free to [email us for support 📧](mailto: sbf+discworld@unsw.edu.au)</span>

@@ -14,7 +14,7 @@ If you see that an update is available, and you would like to update, follow the
 Firstly, close any currently running CryoSPARC sessions. This can be done via the web-portal by clicking the “X” button next to the “Connect” button.
 
 
-![CryoSPARC portal connection]({{ site.url }}{{ site.baseurl }}/assets/images/cryosparc-connection-stopped.png)
+![CryoSPARC portal connection]({{ site.url }}{{ site.baseurl }}/assets/images/cryosparc-connection-running.png)
 
 Then, connect to Discworld via the login node, and start an interactive session with a GPU. To avoid interruptions due to network connection failures, it is recommended to perform an update within a [Tmux session](/how-to/using-tmux).
 
